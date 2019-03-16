@@ -28,9 +28,13 @@ persist.vendor.dpm.feature=1
 persist.vendor.dpm.loglevel=0
 persist.vendor.dpm.nsrm.bkg.evt=3955
 
+
 # Graphics
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
 
 
 ro.surface_flinger.protected_contents=true
