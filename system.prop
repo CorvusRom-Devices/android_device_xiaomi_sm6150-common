@@ -4,6 +4,12 @@ persist.bluetooth.bqr.min_interval_ms=500
 vendor.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 
+# System props to enable Bluetooth Quality Report (BQR) feature
+# BQR event mask configuration
+persist.bluetooth.bqr.event_mask=14
+# BQR minimum report interval configuration
+persist.bluetooth.bqr.min_interval_ms=500
+
 # Camera
 persist.camera.gyro.disable=0
 persist.camera.privapp.list=org.codeaurora.snapcam
