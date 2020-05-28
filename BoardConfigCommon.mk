@@ -51,6 +51,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 6607189
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
 
