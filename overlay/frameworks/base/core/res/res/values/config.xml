@@ -592,7 +592,7 @@
     <!-- Control whether Night display is available. This should only be enabled on devices
     that have a HWC implementation that can apply the matrix passed to setColorTransform
     without impacting power, performance, and app compatibility (e.g. protected content). -->
-    <bool name="config_nightDisplayAvailable">false</bool>
+    <bool name="config_nightDisplayAvailable">true</bool>
 
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
@@ -604,4 +604,16 @@
      <integer name="config_screenshotChordKeyTimeout">0</integer>
     <!-- Default state for LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
+    <!-- Whether device has screen with higher aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <!-- Whether the default emergency settings should be shown. -->
+    <bool name="config_showDefaultEmergency">true</bool>
+
+    <!-- Whether UI for multi user should be shown -->
+    <bool name="config_enableMultiUserUI">true</bool>
+
+    <!--  Maximum number of supported users -->
+    <integer name="config_multiuserMaximumUsers">4</integer>
+
 </resources>
