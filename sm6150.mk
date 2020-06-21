@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.device@1.0
 
+# Gcam
+PRODUCT_PACKAGES += \
+    Gcam
+
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
