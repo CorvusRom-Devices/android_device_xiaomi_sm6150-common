@@ -307,6 +307,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Google play security
+PRODUCT_PACKAGES += \
+    Play
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.sm6150-libperfmgr \
