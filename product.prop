@@ -81,3 +81,6 @@ persist.sys.wfd.virtual=0
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+# Spectrum
+spectrum.support=1
+persist.spectrum.kernel=Hardrock_kernel
