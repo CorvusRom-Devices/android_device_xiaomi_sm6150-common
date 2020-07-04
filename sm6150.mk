@@ -333,6 +333,8 @@ PRODUCT_PACKAGES += \
     init.power.rc \
     init.qcom.rc \
     init.safailnet.rc \
+    init.spectrum.rc \
+    init.spectrum.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.ramoops.sh \
