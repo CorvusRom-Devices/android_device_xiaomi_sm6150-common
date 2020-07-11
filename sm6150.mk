@@ -332,7 +332,6 @@ PRODUCT_PACKAGES += \
     init.msm.usb.configfs.rc \
     init.power.rc \
     init.qcom.rc \
-    init.safailnet.rc \
     init.spectrum.rc \
     init.spectrum.sh \
     init.qcom.usb.rc \
