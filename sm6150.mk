@@ -148,6 +148,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     libbthost_if \
+    libldacBT_enc \
+    libldacBT_abr \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 # Camera
