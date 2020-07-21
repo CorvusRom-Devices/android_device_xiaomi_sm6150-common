@@ -18,3 +18,8 @@ sys.fflag.override.settings_seamless_transfer=true
 # Spectrum
 spectrum.support=1
 persist.spectrum.kernel=Hardrock_kernel
+
+# Graphics
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
