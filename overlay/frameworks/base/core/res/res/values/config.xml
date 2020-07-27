@@ -631,4 +631,6 @@
 
     <!-- Wired/BT headset focus mode -->
     <bool name="config_deviceRingtoneFocusMode">true</bool>
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
