@@ -152,7 +152,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
-
+vendor.display.disable_rotator_downscale=1
 
 # Keystore
 ro.hardware.keystore_desede=true
